@@ -1,0 +1,36 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "lint": "eslint .",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kittennik/ajs2.1.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Kate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kittennik/ajs2.1/issues"
+  },
+  "homepage": "https://github.com/Kittennik/ajs2.1#readme"
+}
